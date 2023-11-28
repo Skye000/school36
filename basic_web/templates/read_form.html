@@ -1,0 +1,16 @@
+{% extends 'index.html' %}
+{% block title %}
+read_form
+{% endblock %}
+{% block body %}
+<div class="container mt-5">
+
+    {% for el in  range (10)%}
+        <div class="alert alert-info">
+            <h1>Отправлено</h1>
+        </div>
+    {% endfor %}
+   
+    
+</div>
+{% endblock %}
